@@ -1,6 +1,6 @@
 # Food Ordering Application with Review Analyzer
  
- This is a food ordering application which was inspired from food ordering system at restaurant in China. There are two android applications in this project: 
+ This is a food ordering application which was inspired from food ordering system at restaurant in China. There are two android applications in this project : 
  
  - #### User Application- Just Eat
  - #### Manager Application- Just Eat Chef
@@ -21,7 +21,7 @@ The main aim of my project was to create a food recommendation system using mach
 - Sentimental analysis of feedback given by the customers using RNN.
 - Integration of machine learning model in android application.
 - Ranking each food item in the menu based on the feedback given by the users. 
-
+<br/>
 
 First, I built and trained RNN model on Amazon food review dataset. Model was trained on around 3 lakh reviews and tested on 1 lakh reviews.
 
@@ -30,6 +30,8 @@ First, I built and trained RNN model on Amazon food review dataset. Model was tr
 
 tf.Keras model was converted into tflite model. Then, it was used inside Android Application to perform sentiment analysis on reviews given by users about their orders.
 
+<br/>
+
 User application works in 5 stages- 
 
 1. User goes to restaurant, scan QR code at table, select his dishes, make payment and confirm his order.
@@ -37,6 +39,8 @@ User application works in 5 stages-
 3. User give his feedback about his individual order.
 4. Feedback is analysed by ML model and a score is generated for each dishes based on customer review.
 5. Food score of dishes ordered is updated and sorted accordingly in main menu.
+
+<br/>
 
 ### Application Workflow - 
 
