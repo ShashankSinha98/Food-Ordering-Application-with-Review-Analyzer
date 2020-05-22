@@ -5,7 +5,7 @@
  - #### User Application- Just Eat
  - #### Manager Application- Just Eat Chef
  
- <img src="https://github.com/ShashankSinha98/Food-Ordering-Application-with-Review-Analyzer/blob/master/images/0.png" width="250">
+ <img src="https://github.com/ShashankSinha98/Food-Ordering-Application-with-Review-Analyzer/blob/master/images/0.png" width="250"> <img src="https://github.com/ShashankSinha98/Food-Ordering-Application-with-Review-Analyzer/blob/master/images/4.png" width="250">
  
  <br />
  
