@@ -5,7 +5,9 @@
  - #### User Application- Just Eat
  - #### Manager Application- Just Eat Chef
  
- <img src="https://github.com/ShashankSinha98/Food-Ordering-Application-with-Review-Analyzer/blob/master/images/0.png" width="250"> <img src="https://github.com/ShashankSinha98/Food-Ordering-Application-with-Review-Analyzer/blob/master/images/4.png" width="250">
+ | Just Eat                            | Just Eat Chef                       |
+ |-------------------------------------|-------------------------------------|
+ |<img src="images/0.png" width="250"> | <img src="images/4.png" width="250">|
  
  <br />
  
@@ -34,6 +36,16 @@ User application works in 5 stages-
 3. User give his feedback about his individual order.
 4. Feedback is analysed by ML model and a score is generated for each dishes based on customer review.
 5. Food score of dishes ordered is updated and sorted accordingly in main menu.
+
+### Application Workflow - 
+
+|1. Login                                | 2. Order Food                          | 3. Checkout                          | 4. Payment  |
+| ---------------------------------------| -------------------------------------- |--------------------------------------|-------------|
+| <img src="images/0.png" width="200px"> | <img src="images/1.png" width="200px"> |<img src="images/2.png" width="200px">|<img src="images/3.png" width="200px">|
+
+|5. Confirm Order from Manager/Chef      | 6. Order History                       | 7. Give Review                       | 8. Review Result |
+| ---------------------------------------| -------------------------------------- |--------------------------------------|-------------|
+| <img src="images/4.png" width="200px"> | <img src="images/5.png" width="200px"> |<img src="images/6.png" width="200px">|<img src="images/8.png" width="200px">|
 
  
  
