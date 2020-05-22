@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    android:id="@+id/setup_constraint_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ >
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/setup_image"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/default_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/setup_fullname_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/full_name"
+        app:counterEnabled="true"
+        app:layout_constraintTop_toBottomOf="@id/setup_image"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="25dp"
+        >
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/setup_fullname_et"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:maxLines="1" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/dob_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/setup_fullname_layout"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:text="Date of birth :"
+        android:textColor="@color/blue"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/selected_dob_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01/01/2001"
+        app:layout_constraintStart_toEndOf="@id/dob_tv"
+        app:layout_constraintBottom_toBottomOf="@id/dob_tv"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/custom_grey"
+        style="@style/TextAppearance.AppCompat.Large"/>
+
+    <ImageView
+        android:id="@+id/calendar_icon_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/calendar_icon_blue"
+        app:layout_constraintStart_toEndOf="@id/selected_dob_tv"
+        app:layout_constraintBottom_toBottomOf="@id/selected_dob_tv"
+        android:layout_marginLeft="10dp"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/setup_number_layout"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/number"
+        app:counterEnabled="true"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintStart_toEndOf="@id/num_code_tv"
+        app:layout_constraintTop_toBottomOf="@id/dob_tv"
+        android:layout_marginTop="30dp"
+        >
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/setup_number_et"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="10"
+            android:maxLines="1" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/num_code_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+91"
+        style="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="@id/india_flag_icon"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintStart_toEndOf="@id/india_flag_icon"
+        />
+
+    <ImageView
+        android:id="@+id/india_flag_icon"
+        android:layout_width="32dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/num_code_tv"
+        app:layout_constraintTop_toBottomOf="@id/dob_tv"
+        android:layout_marginLeft="10dp"
+       app:srcCompat="@drawable/india" />
+
+
+    <RadioGroup
+        android:id="@+id/setup_gender_rg"
+        app:layout_constraintBottom_toBottomOf="@id/gender_tv"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/setup_gender_rg"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/male_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/male"/>
+
+        <RadioButton
+            android:id="@+id/female_rb"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/gender_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gender"
+        app:layout_constraintTop_toBottomOf="@id/india_flag_icon"
+        android:layout_marginTop="50dp"
+        style="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/setup_gender_rg"
+        />
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/setup_setup_btn"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:backgroundTintMode="multiply"
+        android:padding="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="20dp"
+        android:text="@string/save_account_settings"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/white"
+        app:backgroundTint="@color/colorPrimary"
+        app:cornerRadius="4dp"
+        app:rippleColor="@android:color/white"
+
+        />
+
+
+
+
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

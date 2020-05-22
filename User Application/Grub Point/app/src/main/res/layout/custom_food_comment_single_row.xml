@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/food_comment_layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="5dp"
+    android:layout_marginBottom="10dp">
+
+    <ImageView
+        android:id="@+id/food_img"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="10dp"
+        android:src="@drawable/burger"
+        android:layout_width="60dp"
+        android:layout_height="60dp"/>
+
+    <TextView
+        android:id="@+id/food_resp_tv"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@id/comment_status"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="5dp"
+        android:layout_width="wrap_content"
+        style="@style/TextAppearance.AppCompat.Small"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/food_price"
+        android:text="₹150"
+        android:layout_marginLeft="5dp"
+        android:background="#ccffffff"
+        android:textColor="#004b35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/food_img"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/food_name"
+        android:text="Pizza"
+        style="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintStart_toEndOf="@id/food_img"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/food_qty"
+        android:text="x3"
+        style="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintTop_toBottomOf="@id/food_name"
+        app:layout_constraintStart_toEndOf="@id/food_img"
+        android:layout_marginLeft="10dp"
+        android:background="#ccffffff"
+        android:textColor="#004b35"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="₹450"
+        style="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="5dp"
+        android:textColor="#004b35"
+        app:layout_constraintTop_toBottomOf="@id/food_review"
+        android:id="@+id/food_qty_total_price"
+        />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:background="@color/green"
+        app:layout_constraintStart_toEndOf="@id/food_img"
+        app:layout_constraintTop_toBottomOf="@id/food_qty_total_price"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/comment_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Small"
+        tools:text="Not Rated"
+        android:textColor="@color/red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="5dp"/>
+
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/food_review"
+        android:layout_width="0dp"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:text="- Best Food"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/food_qty"
+        app:layout_constraintStart_toEndOf="@id/food_img"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

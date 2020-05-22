@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/cuisine_single_row_layout"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    android:background="@color/colorPrimaryDark"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/cuisine_name_single_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Snacks (5)"
+        android:textColor="@color/white"
+        android:padding="5dp"
+        style="@style/TextAppearance.AppCompat.Small"
+        />
+
+</android.support.constraint.ConstraintLayout>

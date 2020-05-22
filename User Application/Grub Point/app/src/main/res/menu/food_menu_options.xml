@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/my_profile_option_menu"
+        app:showAsAction="never"
+        android:title="@string/my_profile" />
+
+    <item
+        android:id="@+id/faq_option_menu"
+        app:showAsAction="never"
+        android:title="@string/faq" />
+
+    <item
+        android:id="@+id/rate_us_option_menu"
+        app:showAsAction="never"
+        android:title="@string/rate_us" />
+
+    <item
+        android:id="@+id/about_us_option_menu"
+        app:showAsAction="never"
+        android:title="@string/about_us" />
+
+    <item
+        android:id="@+id/contact_us_option_menu"
+        app:showAsAction="never"
+        android:title="@string/contact_us" />
+</menu>

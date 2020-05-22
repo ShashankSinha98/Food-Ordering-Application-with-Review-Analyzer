@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/toolbar"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:text="ML Result"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/comment_ml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        android:layout_marginTop="15dp"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Good Food. Highly Recommended"/>
+
+    <TextView
+        android:id="@+id/pos_score_ml"
+        app:layout_constraintTop_toBottomOf="@id/comment_ml"
+        android:layout_width="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Pos : 0.79"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/green"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+    <TextView
+        android:id="@+id/neg_score_ml"
+        app:layout_constraintTop_toBottomOf="@id/pos_score_ml"
+        android:layout_width="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Neg: 0.21"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/red"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+    <TextView
+        android:id="@+id/res_ml"
+        style="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintTop_toBottomOf="@id/neg_score_ml"
+        android:layout_width="wrap_content"
+        android:text="Positive"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/confirm_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:text="Confirm"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toStartOf="@id/deny_btn"
+        app:layout_constraintTop_toBottomOf="@id/res_ml"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+    <Button
+        android:id="@+id/deny_btn"
+        android:layout_width="0dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@id/confirm_btn"
+        android:layout_height="wrap_content"
+        android:background="@color/custom_grey"
+        android:textColor="@color/white"
+        android:text="Deny"
+        app:layout_constraintTop_toBottomOf="@id/res_ml"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

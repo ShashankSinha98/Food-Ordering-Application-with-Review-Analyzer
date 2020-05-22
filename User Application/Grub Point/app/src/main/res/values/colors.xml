@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#308b14</color>
+    <color name="colorPrimaryDark">#308b14</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+
+    <color name="custom_grey">#808080</color>
+    <color name="primaryColor">#3f51b5</color>
+    <color name="primaryLightColor">#757de8</color>
+    <color name="primaryDarkColor">#002984</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="placeholder_bg">#dddddd</color>
+    <color name="colorSecondary">#a1bcf2</color>
+    <color name="colorSecondaryDark">#708cbf</color>
+    <color name="green">#2a9e30</color>
+    <color name="splash_backgroud">#C2C2C2</color>
+    <color name="colorSecondaryAccent">#d4eeff</color>
+    <color name="whiteSmoke">#F5F5F5</color>
+    <color name="frostWhite">#f6f0e5</color>
+
+    <color name="blue">#006699</color>
+    <color name="bluelightbutton">#18BFCC</color>
+    <color name="yellow_dark">#DCCB49</color>
+
+    <!-- Slide colors -->
+    <color name="color_white_slides">#FFFFFF</color>
+    <color name="transparent_white_slides">#CCCCCC</color>
+    <color name="color_accent_slides">#FF4081</color>
+    <color name="color_primary_dark_slides">#181A24</color>
+    <color name="coor_primary_slides">#262938</color>
+    <color name="color_app_theme">#6e00b5</color>
+    <color name="red">#ccFF0000</color>
+
+</resources>

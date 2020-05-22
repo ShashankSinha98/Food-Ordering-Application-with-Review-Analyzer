@@ -1,0 +1,71 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.example.hrithik.btp"
+        minSdkVersion 23
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            manifestPlaceholders = [usesCleartextTraffic:"false"]
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug{
+            manifestPlaceholders = [usesCleartextTraffic:"true"]
+        }
+    }
+    aaptOptions {
+        noCompress "tflite"
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:28.0.0-alpha1'
+    implementation 'com.android.support:animated-vector-drawable:28.0.0-alpha1'
+    implementation 'com.android.support:support-media-compat:28.0.0'
+    implementation 'com.android.support:design:28.0.0-alpha1'
+    implementation 'me.dm7.barcodescanner:zxing:1.9'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.google.firebase:firebase-auth:11.6.0'
+    implementation 'com.google.firebase:firebase-database:11.6.0'
+    implementation 'android.arch.navigation:navigation-fragment:1.0.0'
+    implementation 'android.arch.navigation:navigation-ui:1.0.0'
+    implementation 'android.arch.lifecycle:extensions:1.1.1'
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.google.android.gms:play-services-auth:11.6.0'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    implementation 'com.google.firebase:firebase-core:11.6.0'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation "android.arch.core:runtime:1.1.1"
+    implementation "android.arch.core:common:1.1.1"
+    implementation 'com.github.bumptech.glide:glide:4.8.0'
+    implementation 'com.google.firebase:firebase-firestore:11.6.0'
+    implementation 'com.google.firebase:firebase-storage:11.6.0'
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.7.+'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
+    implementation 'id.zelory:compressor:2.1.0'
+    implementation 'com.android.volley:volley:1.1.1'
+    implementation 'org.tensorflow:tensorflow-lite:+'
+
+
+    // Paytm dependencies
+
+    implementation('com.paytm:pgplussdk:1.3.3') {
+        transitive = true;
+    }
+
+    implementation files('libs\\android-viewbadger.jar')
+
+}
+
+apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_scanpay"
+        android:icon="@drawable/ic_camera_black_24dp"
+        android:title="Scan-Pay" />
+
+    <!--<item
+        android:id="@+id/nav_menu"
+        android:icon="@drawable/ic_restaurant_menu_black_24dp"
+        android:title="Menu" />-->
+
+    <item
+        android:id="@+id/nav_more"
+        android:icon="@drawable/ic_more_black_24dp"
+        android:title="More" />
+</menu>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.constraint.ConstraintLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/dialog_bg"
+    android:padding="4dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+            <TextView
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:id="@+id/food_details_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                tools:text="Pizza"
+                android:gravity="center"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:background="@drawable/half_dialog_bg"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                style="@style/TextAppearance.AppCompat.Large"/>
+
+
+            <ImageView
+                android:id="@+id/food_details_food_iv"
+                app:layout_constraintTop_toBottomOf="@id/food_details_name"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/pizza"
+                android:scaleType="centerCrop"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#bb000000"
+                app:layout_constraintBottom_toBottomOf="@id/food_details_food_iv"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+            <TextView
+                android:id="@+id/food_details_food_rating"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="@id/food_details_food_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:text="4/5"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/star_white_icon"
+                app:layout_constraintEnd_toStartOf="@id/food_details_food_rating"
+                app:layout_constraintBottom_toBottomOf="@id/food_details_food_iv"
+                />
+
+            <TextView
+                android:id="@+id/food_details_food_desc_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/food_details_food_add"
+                android:layout_marginTop="5dp"
+                android:lineSpacingExtra="5dp"
+                app:layout_constraintStart_toStartOf="parent"
+                style="@style/TextAppearance.AppCompat.Medium"
+                android:padding="10dp"
+                android:text="Pizza is a savory dish of Italian origin, consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and various other ingredients (anchovies, olives, meat, etc.) baked at a high temperature, traditionally in a wood-fired oven."/>
+
+
+    <ImageView
+        android:id="@+id/food_details_food_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/add_green_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/food_details_food_iv"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        />
+
+    <TextView
+        android:id="@+id/food_details_item_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:text="1"
+        android:textSize="30sp"
+        android:layout_marginRight="5dp"
+        app:layout_constraintEnd_toStartOf="@id/food_details_food_add"
+        app:layout_constraintBottom_toBottomOf="@id/food_details_food_add"
+        android:layout_marginTop="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/food_details_food_remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/remove_red_icon"
+        app:layout_constraintBottom_toBottomOf="@id/food_details_food_add"
+        app:layout_constraintEnd_toStartOf="@id/food_details_item_count"
+        android:layout_marginRight="5dp"
+        />
+
+    <Button
+        android:id="@+id/add_to_cart_btn"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/add_to_cart"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/food_details_food_desc_tv"
+        />
+
+
+
+
+
+        </android.support.constraint.ConstraintLayout>
+
+
+
+
+
+

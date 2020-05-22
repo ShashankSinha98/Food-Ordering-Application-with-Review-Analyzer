@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardElevation="20dp"
+    app:cardCornerRadius="20dp">
+
+
+    <android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/thin_dialog_bg"
+        android:id="@+id/order_layout"
+        android:paddingBottom="10dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <TextView
+            android:id="@+id/o_n_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            app:layout_constraintBottom_toBottomOf="@id/order_no"
+            style="@style/TextAppearance.AppCompat.Small"
+            android:text="#"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/order_no"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/o_n_tv"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:textColor="@color/green"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:text="101"
+            />
+
+        <TextView
+            android:id="@+id/date_n_time"
+            app:layout_constraintEnd_toEndOf="parent"
+            style="@style/TextAppearance.AppCompat.Small"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2015-11-13 13:50:21.007"/>
+
+        <TextView
+            android:id="@+id/order_details"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="Pizza x 2\nFries x 4\nPizza x 2\nFries x 4\nPizza x 2"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toBottomOf="@id/order_status"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/order_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:text="₹240"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/order_details"
+            android:layout_marginRight="20dp"/>
+
+        <ImageView
+            android:id="@+id/review_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/review_icon"
+            android:layout_marginTop="5dp"
+            app:layout_constraintTop_toBottomOf="@id/order_details"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/feedback_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Give Feedback"
+            android:textColor="@color/green"
+            style="@style/TextAppearance.AppCompat.Medium"
+            app:layout_constraintStart_toEndOf="@id/review_icon"
+            app:layout_constraintBottom_toBottomOf="@id/review_icon"
+            android:layout_marginLeft="5dp"
+            />
+
+        <TextView
+            android:id="@+id/order_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="#Order Placed"
+            style="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toBottomOf="@id/date_n_time"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginRight="20dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/green"
+            app:layout_constraintStart_toStartOf="@id/order_details"
+            app:layout_constraintBottom_toBottomOf="@id/order_details"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="20dp"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>
