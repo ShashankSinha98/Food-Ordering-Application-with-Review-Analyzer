@@ -47,6 +47,17 @@ User application works in 5 stages-
 | ---------------------------------------| -------------------------------------- |--------------------------------------|-------------|
 | <img src="images/3.png" width="200px"> | <img src="images/4.png" width="200px"> |<img src="images/6.png" width="200px">|<img src="images/8.png" width="200px">|
 
+<br/>
+
+Food Score will be updated after each review. Items having maximum food score will be at top and vice versa.
+
+<br/>
+
+ | Max Scored Items                    | Min Scored Items                    |
+ |-------------------------------------|-------------------------------------|
+ |<img src="images/9.png">             | <img src="images/10.png" >          |
+
+
  
  
  For more details about restaurant food ordering - https://sampi.co/wechat-app-restaurant-business/
