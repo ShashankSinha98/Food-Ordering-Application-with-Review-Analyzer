@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Grub Point Chef</string>
+    <string name="pending_orders">Pending Orders</string>
+    <string name="past_orders">Past Orders</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="food_name">Food Name</string>
+    <string name="food_price">Food Price</string>
+    <string name="food_description">Food Description</string>
+</resources>

@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "132003717222",
+    "firebase_url": "https://btpproject-dfbc9.firebaseio.com",
+    "project_id": "btpproject-dfbc9",
+    "storage_bucket": "btpproject-dfbc9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132003717222:android:9e6bae8f13d76b939d8da7",
+        "android_client_info": {
+          "package_name": "com.example.btpmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132003717222-m1s0hej0unvuvbnukjaa0nni38pacdtr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.btpmanager",
+            "certificate_hash": "43c651dc72d37742ea67aa7a2428d1e329eaac3e"
+          }
+        },
+        {
+          "client_id": "132003717222-tpioibp4uac5deci3a0ptids5hraedhl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXCsEn8srH3Ocb5G_k0MlSJW7wRSgX5mE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132003717222-tpioibp4uac5deci3a0ptids5hraedhl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132003717222:android:d7333bb8685178c39d8da7",
+        "android_client_info": {
+          "package_name": "com.example.hrithik.btp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132003717222-q9vtttrg6p3i8asj2l9cqhkq8o5suvdg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hrithik.btp",
+            "certificate_hash": "43c651dc72d37742ea67aa7a2428d1e329eaac3e"
+          }
+        },
+        {
+          "client_id": "132003717222-7r1k6nsukq3qdo4hsq191oc252ga78ru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hrithik.btp",
+            "certificate_hash": "e33bb1697d0620b228af2912dbe513d53949c772"
+          }
+        },
+        {
+          "client_id": "132003717222-tpioibp4uac5deci3a0ptids5hraedhl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXCsEn8srH3Ocb5G_k0MlSJW7wRSgX5mE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132003717222-tpioibp4uac5deci3a0ptids5hraedhl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

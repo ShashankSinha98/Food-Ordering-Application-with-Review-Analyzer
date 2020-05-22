@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp">
+
+    <ImageView
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/food_img"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/default_img"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/food_name"
+        android:text="Pizza"
+        style="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintStart_toEndOf="@id/food_img"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/food_qty"
+        android:text="x3"
+        style="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintTop_toBottomOf="@id/food_name"
+        app:layout_constraintStart_toEndOf="@id/food_img"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/food_price"
+        android:text="₹150"
+        android:layout_marginLeft="5dp"
+        android:background="#ccffffff"
+        android:textColor="#004b35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/food_img"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="₹450"
+        style="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginRight="5dp"
+        android:textColor="#004b35"
+        android:id="@+id/food_qty_total_price"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
