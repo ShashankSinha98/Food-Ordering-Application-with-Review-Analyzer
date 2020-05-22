@@ -13,7 +13,7 @@
  
  
  
- ## 1. Grub Point
+ ## 1. Just Eat
  
 The main aim of my project was to create a food recommendation system using machine learning model which will be integrated in an android application that will allows users to order food and drinks in a fast and convenient way. Basically, my project consists of three major parts, i.e. 
 
@@ -56,6 +56,13 @@ Food Score will be updated after each review. Items having maximum food score wi
  | Max Scored Items                    | Min Scored Items                    |
  |-------------------------------------|-------------------------------------|
  |<img src="images/9.png">             | <img src="images/10.png" >          |
+ 
+ <br/><br/>
+ ## 2. Just Eat Chef
+ 
+ This application will be used by Restaurant Manager. They will recieve notification when user places order. Once order is served at table, manager will confirm the order which will enable user to give review of their experience with their food.
+ 
+ <img src="images/4.png">  
 
 
  
