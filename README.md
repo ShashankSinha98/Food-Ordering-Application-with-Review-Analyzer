@@ -65,6 +65,19 @@ Food Score will be updated after each review. Items having maximum food score wi
  <img src="images/4.png">  
 
 
+### Key Features/Libraries used-
+- Payment Gateway - Paytm
+- Tflite - RNN Model
+- Firebase Authentication
+- Firebase Realtime Database
+- Firebase Storage
+- Glide
+- Volley
+- QR Code Scanner
+- Image Compressor
+- Image Cropper
+<br/><br/>
+
  
  
  For more details about restaurant food ordering - https://sampi.co/wechat-app-restaurant-business/
