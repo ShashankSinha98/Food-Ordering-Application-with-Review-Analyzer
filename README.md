@@ -1,6 +1,6 @@
 # Food Ordering Application with Review Analyzer
  
- This is a food ordering application which was inspired from food ordering system at restaurant in China. There are two android applications in this project : 
+ This is a food ordering application which was inspired from food ordering system used by restaurants in China. There are two android applications in this project : 
  
  - #### User Application- Just Eat
  - #### Manager Application- Just Eat Chef
