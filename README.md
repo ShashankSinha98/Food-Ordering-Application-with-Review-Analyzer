@@ -39,13 +39,13 @@ User application works in 5 stages-
 
 ### Application Workflow - 
 
-|1. Login                                | 2. Order Food                          | 3. Checkout                          | 4. Payment  |
+|1. Login                                | 2. Scan QR Code                        | 3. Order Food                        | 4. Checkout |
 | ---------------------------------------| -------------------------------------- |--------------------------------------|-------------|
-| <img src="images/0.png" width="200px"> | <img src="images/1.png" width="200px"> |<img src="images/2.png" width="200px">|<img src="images/3.png" width="200px">|
+| <img src="images/0.png" width="200px"> | <img src="images/12.png" width="200px"> |<img src="images/1.png" width="200px">|<img src="images/2.png" width="200px">|
 
-|5. Confirm Order from Manager/Chef      | 6. Order History                       | 7. Give Review                       | 8. Review Result |
+|5. Payment                              | 6. Order Confirmation         | 7. Give Review                       | 8. Review Result |
 | ---------------------------------------| -------------------------------------- |--------------------------------------|-------------|
-| <img src="images/4.png" width="200px"> | <img src="images/5.png" width="200px"> |<img src="images/6.png" width="200px">|<img src="images/8.png" width="200px">|
+| <img src="images/3.png" width="200px"> | <img src="images/4.png" width="200px"> |<img src="images/6.png" width="200px">|<img src="images/8.png" width="200px">|
 
  
  
