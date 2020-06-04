@@ -44,7 +44,7 @@ User application works in 5 stages-
 
 ### Application Workflow - 
 
-|1. Login                                | 2. Scan QR Code                        | 3. Order Food                        | 4. Checkout |
+|1. Login                                | 2. Scan QR Code                        | 3. Select Food                        | 4. Checkout |
 | ---------------------------------------| -------------------------------------- |--------------------------------------|-------------|
 | <img src="images/0.png" width="200px"> | <img src="images/12.png" width="200px"> |<img src="images/1.png" width="200px">|<img src="images/2.png" width="200px">|
 
