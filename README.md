@@ -85,4 +85,4 @@ Food Score will be updated after each review. Items having maximum food score wi
 
  
  
- For more details about restaurant food ordering - https://sampi.co/wechat-app-restaurant-business/
+ For more details about restaurant food ordering, [Click Here](https://sampi.co/wechat-app-restaurant-business/)
