@@ -37,7 +37,7 @@ public class PaymentActivity extends AppCompatActivity implements PaytmPaymentTr
         custId = intent.getExtras().getString("custid");
         amountToPay = intent.getExtras().getString("amount_to_pay");
 
-        merchantId = "auxpee35192428915202";
+        merchantId = "YOUR_PAYTM_MERCHANT_ID";
 
         sendUserDetailToServer d1 = new sendUserDetailToServer();
         d1.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
