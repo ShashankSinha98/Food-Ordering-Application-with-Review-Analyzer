@@ -59,6 +59,7 @@ import java.util.Map;
 import de.hdodenhof.circleimageview.CircleImageView;
 import id.zelory.compressor.Compressor;
 
+
 public class SetupActivity extends AppCompatActivity implements DatePickerDialog.OnDateSetListener {
 
     private static String TAG = "SetupActivity";
