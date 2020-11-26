@@ -1,5 +1,7 @@
 # Food Ordering Application with Review Analyzer
  
+ <img src="https://sloc.xyz/github/ShashankSinha98/Food-Ordering-Application-with-Review-Analyzer" alt="LOC"/>  <a href="https://github.com/ShashankSinha98/Food-Ordering-Application-with-Review-Analyzer/stargazers"><img src="https://img.shields.io/github/stars/ShashankSinha98/Food-Ordering-Application-with-Review-Analyzer" alt="Stars Badge"/></a>  <a href="https://github.com/ShashankSinha98/Food-Ordering-Application-with-Review-Analyzer/network/members"><img src="https://img.shields.io/github/forks/ShashankSinha98/Food-Ordering-Application-with-Review-Analyzer" alt="Forks Badge"/></a>
+ 
  This is a food ordering application which was inspired from food ordering system used by restaurants in China. There are two android applications in this project : 
  
  - #### User Application- Just Eat
